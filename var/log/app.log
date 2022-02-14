@@ -1,0 +1,22 @@
+20220214_000706 694 -> _internal WARNING :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+20220214_000706 695 -> _internal INFO :  * Running on http://172.20.174.91:8080/ (Press CTRL+C to quit)
+20220214_000706 699 -> _internal INFO :  * Restarting with stat
+20220214_000706 844 -> _internal WARNING :  * Debugger is active!
+20220214_000706 844 -> _internal INFO :  * Debugger PIN: 110-949-271
+20220214_000723 817 -> app INFO : [>>>] {"type": "generate", "version": "1.0", "param": {}, "uuid": "8dad5e5a-3163-4556-ab5c-2db46128a612"}
+20220214_000723 817 -> app INFO : generate file starting...
+20220214_000723 818 -> app INFO : file was generated = /home/febry/clientServer/server/randomData.txt
+20220214_000724 270 -> app INFO : [<<<] {"type": "generate", "version": "1.0", "param": {"link": "/home/febry/clientServer/server/randomData.txt"}, "requestUuid": "8dad5e5a-3163-4556-ab5c-2db46128a612"}
+20220214_000724 271 -> _internal INFO : 127.0.0.1 - - [14/Feb/2022 00:07:24] "POST /api HTTP/1.1" 200 -
+20220214_000729 177 -> app INFO : [>>>] {"type": "report", "version": "1.0", "param": {"link": "/home/febry/clientServer/server/randomData.txt"}, "uuid": "9b37540b-1b1a-4700-a4ff-f8668733a691"}
+20220214_000729 177 -> app INFO : read file starting...
+20220214_000729 421 -> app INFO : read file done
+20220214_000729 421 -> app INFO : [<<<] {"type": "report", "version": "1.0", "param": {"link": "/home/febry/clientServer/server/randomData.txt", "alphabetical strings": 30109, "integers": 27721, "real numbers": 27699, "alphanumerics": 24100}, "requestUuid": "9b37540b-1b1a-4700-a4ff-f8668733a691"}
+20220214_000729 421 -> _internal INFO : 127.0.0.1 - - [14/Feb/2022 00:07:29] "GET /api HTTP/1.1" 200 -
+20220215_003617 871 -> _internal WARNING :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+20220215_003617 871 -> _internal INFO :  * Running on http://172.20.174.91:8080/ (Press CTRL+C to quit)
+20220215_003617 873 -> _internal INFO :  * Restarting with stat
+20220215_003618 1 -> _internal WARNING :  * Debugger is active!
+20220215_003618 1 -> _internal INFO :  * Debugger PIN: 490-816-795
